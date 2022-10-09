@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root{
+    --primary-color: #047aed ;
+}
+body{
+    font-family: 'Lato',sans-serif;
+    color:#333;
+    line-height: 1.6;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*navbar*/
+.navbar{
+    background-color:#fff;
+    color: #333;
+    height: 70px;
+    align-items: center;
+    text-align: right;
+}
+.navbar ul{
+    padding: 0px;
+}
+.navbar a{
+    color: #333;
+    padding: 10px;
+}
+.navbar button {
+	border: 1px solid #5f6368 ;
+	font-weight: bold;
+	outline: none;
+	background: #047aed;
+	color: #fff;
+	padding: 7px 12px;
+	border-radius: 1px;
+	margin-left: 7px;
+}
+.navbar a:hover{
+    border-bottom: 1px  solid #5f6368;
+}
+.navbar .link{
+    text-decoration: none;
+    text-align: right;
+}
+.searchbar{
+    text-align: center;
+}
+.searchbar .input{
+    padding-left: 50px;
+    width: 60%;
+    height: 42px;
+    border-radius: 25px;
+    border: 1px solid #eee;
+}
+.searchbar .searchicon{
+    position: relative;
+    top: 5px;
+    left: 35px;
+    width: 20px;
+    height: 20px;
+}
+.searchbar .vsicon{
+    position: relative;
+    text-align: center;
+    top: 5px;
+    right: 45px;
+    width: 20px;
+    height: 20px;
+}
+.tik{
+    font-size: 0px;
+    padding: 0px;
+    width: 350px;
+    height: 175px;
+    align-self: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.heading{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.s-box{
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.language a:hover{
+    border-bottom: 2px #047aed solid;
+}
+.language{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*footer*/
+footer {
+	background: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer h2 {
+	color: rgba(0,0,0, 0.54);
+	font-size: 15px;
+	line-height: 39.5px;
+	font-weight: 400;
+	padding-left: 29px;
+	border: 1px solid #eee;
+}
+footer a {
+	color: #5f6368;
+	display: inline-block;
+	padding: 12px 11.3px;
+	font-size: 14px;
+}
+footer a:hover {
+	text-decoration: 2px underline;
+}
+.links {
+	border-top: 1px solid #ddd;
+	display: flex;
+}
+.link-1 {
+	padding-left: 18.7px;
+	flex: 1;
+}
+.link-2 {
+	padding-right: 18.7px;
+}
