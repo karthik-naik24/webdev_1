@@ -18,15 +18,18 @@
                     <button>sign in</button>
                 </ul>
             </nav>
-        </div>    
-      <div class="heading">
+        </div> 
+     <div class="heading">
             <img src="Google-Logo.wine.png" alt="Google" class="tik">
-      </div>
+     </div>
+     <form action="https://google.com/search" method="get">
       <div class="searchbar">
         <img src="searchicon.png" class="searchicon">
-      	<input type="text" class="input">
+        <input type="hidden" name="sitesearch" value="">
+      	<input type="text" class="input" id="gsearch" name="q">
       	<img src="voice.png" class="vsicon">
       </div>
+     </form>
       <div class="s-box">
         <input type="submit" class="s-btn" value="Google Search">
         <input type="submit" class="s-btn" value="I'm Feeling Lucky">
